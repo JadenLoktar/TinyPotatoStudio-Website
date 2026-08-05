@@ -21,15 +21,10 @@ body{
     text-align:center;
 }
 
-h1{
-    font-size:3rem;
-    margin-bottom:10px;
-}
-
 .logo{
-    width:200px;
+    width:250px;
     height:auto;
-    margin-bottom:35px;
+    margin-bottom:30px;
     transition:transform .25s ease;
 }
 
@@ -38,9 +33,9 @@ h1{
 }
 
 .subtitle{
-    color:#A9D77B;
+    color:#005C0B;
     font-size:1.1rem;
-    margin-bottom:60px;
+    margin-bottom:45px;
 }
 
 .game{
@@ -88,4 +83,26 @@ footer{
     margin-top:70px;
     color:#666;
     font-size:0.85rem;
+}
+
+@media (max-width:600px) {
+    .container {
+        padding: 24px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .game {
+        padding: 24px 18px;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+        .links a {
+            width: 100%;
+        }
 }
