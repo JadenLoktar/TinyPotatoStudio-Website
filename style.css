@@ -6,7 +6,7 @@
 
 body{
     font-family:Arial, Helvetica, sans-serif;
-    background:#161616;
+    background:radial-gradient(circle at top, #252525 0%, #161616 60%, #101010 100%);
     color:#F5F5F5;
     display:flex;
     justify-content:center;
@@ -27,7 +27,7 @@ h1{
 }
 
 .logo{
-    width:180px;
+    width:140px;
     height:auto;
     margin-bottom:25px;
 }
