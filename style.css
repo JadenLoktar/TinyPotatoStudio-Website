@@ -22,7 +22,7 @@ body{
 }
 
 .logo{
-    width:250px;
+    width:275px;
     height:auto;
     margin-bottom:30px;
     transition:transform .25s ease;
@@ -33,7 +33,7 @@ body{
 }
 
 .subtitle{
-    color:#005C0B;
+    color:#2CA83A;
     font-size:1.1rem;
     margin-bottom:45px;
 }
