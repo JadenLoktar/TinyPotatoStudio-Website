@@ -51,32 +51,57 @@ h2{
     margin-bottom:15px;
 }
 
+.description{
+    color:#BBB;
+    margin-bottom:15px;
+}
+
+.available{
+    color:#2CA83A;
+    font-size:1.2rem;
+    margin-bottom:30px;
+}
+
 .coming-soon{
     color:#FFB347;
     font-size:1.2rem;
     margin-bottom:30px;
 }
 
-.links{
-    display:flex;
-    justify-content:center;
-    gap:20px;
-    flex-wrap:wrap;
-}
-
-.links a{
-    text-decoration:none;
-    color:#F5F5F5;
-    background:#FF7A00;
-    padding:12px 22px;
-    border-radius:12px;
-    font-weight:bold;
+.store-link a {
+    display: inline-block;
+    text-decoration: none;
+    color: #F5F5F5;
+    background: #FF7A00;
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-weight: bold;
     transition: background .2s, transform .15s;
 }
 
-.links a:hover{
-    background:#FF9933;
-    transform:translateY(-2px);
+.store-link a:hover {
+    background: #FF9933;
+    transform: translateY(-2px);
+}
+
+.legal-links {
+    margin-top: 20px;
+    font-size: 0.95rem;
+}
+
+.legal-links a {
+    color: #999;
+    text-decoration: none;
+}
+
+.legal-links a:hover {
+    color: #CCC;
+    text-decoration: underline;
+}
+
+.legal-links span {
+    color: #666;
+    margin: 0 8px;
 }
 
 footer{
